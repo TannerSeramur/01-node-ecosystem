@@ -10,6 +10,11 @@ describe('greet module', ()=>{
     let result = greet.greet(name);
     expect(result).toEqual(expected);
   });
+  it('works with string as name',()=>{
+    let expected = 'hello world' ;
+    let result = greet.greet('world');
+    expect(result).toEqual(expected);
+  });
   it('returns null with number as name',()=>{
     let expected = null;
     let result = greet.greet(5);

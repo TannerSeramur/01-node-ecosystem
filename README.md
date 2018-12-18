@@ -6,10 +6,10 @@
 ### Author: Tanner Seramur
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/TannerSeramur/01-node-ecosystem)
+* [travis](https://www.travis-ci.com/TannerSeramur/01-node-ecosystem)
+* [faker](https://www.npmjs.com/package/faker)
+* [jest](https://jestjs.io/)
 
 ### Modules
 #### `faker`
@@ -19,29 +19,18 @@
 
 
 ##### Exported Values and Methods
+* arithmetic.js
+* greet.js
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
+* `PORT` - user should set up
 
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * All test should pass
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events
