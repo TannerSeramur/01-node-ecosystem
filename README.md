@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 01 Node Ecosystem
 
-### Author: Student/Group Name
+### Author: Tanner Seramur
 
 ### Links and Resources
 * [repo](http://xyz.com)
@@ -12,7 +12,12 @@
 * [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
+#### `faker`
+#### `jest`
+#### `eslint`
+#### `CommonJS`
+
+
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -24,7 +29,7 @@ Usage Notes or examples
 ### Setup
 #### `.env` requirements
 * `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+
 
 #### Running the app
 * `npm start`
